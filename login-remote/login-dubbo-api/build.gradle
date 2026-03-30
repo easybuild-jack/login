@@ -1,0 +1,4 @@
+dependencies {
+    api ('com.mcst:remote-dubbo')
+    compileOnly("com.mcst:rpc-dubbo")
+}

@@ -1,0 +1,4 @@
+dependencies {
+    api project(':login-orm:login-orm-api')
+    api('com.mcst:orm-hibernate')
+}

@@ -1,0 +1,8 @@
+dependencies {
+    api project(':login-api')
+    api project(':login-orm:login-orm-api')
+    api('com.mcst:service-base')
+    api('com.mcst:easyfk-authority')
+    compileOnly('org.springframework:spring-tx')
+}
+
