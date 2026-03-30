@@ -60,7 +60,7 @@ public class LoginServerConfig {
 
 
     @Bean
-    @ConditionalOnProperty(name = "easyfk.config.login.cache-type", havingValue = "Database", matchIfMissing = true)
+    @ConditionalOnProperty(name = "easyfk.config.login.cache-type", havingValue = "database", matchIfMissing = true)
     public UserDataManager userDataManager() {
         return new UserDataManagerServerImpl();
     }
